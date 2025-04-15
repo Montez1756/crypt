@@ -4,9 +4,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAGIC "CRYPTMAGIC"
-#define MAGIC_SIZE 12
-
 typedef struct FileEntry
 {
     size_t name_len;
